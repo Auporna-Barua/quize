@@ -21,6 +21,84 @@
     </script>
   </head>
   <body>
-    
+    <div class="text-center">
+      <h2
+        class="text-2xl uppercase my-5 border-b-2 inline-block border-rose-400"
+      >
+        blog
+      </h2>
+    </div>
+    <section class="w-3/4 mx-auto my-5">
+      <h2 class="text-lg font-bold">
+        1. Difference between map, filter,foreach and find?
+      </h2>
+      <h4 class="font-bold text-xs">MAP():</h4>
+      <p>
+        map() executes the same code on every element in an array and returns a
+        new array with the updated elements.
+      </p>
+      <h4 class="font-bold text-xs">.filter():</h4>
+      <p>
+        filter() checks every element in an array to see if it meets a certain
+        criteria and returns a new array with the elements that return truthy
+        for the criteria.
+      </p>
+      <h4 class="font-bold text-xs">forEach():</h4>
+      <p>
+        forEach(), is used to execute the same code on every element in an array
+        but does not change the array and it returns undefined.
+      </p>
+      <h4 class="font-bold text-xs">find():</h4>
+      <p>
+        Function .find() is also a search function like the previous but they
+        differ in one small detail — this function returns only one match in an
+        array. If in an array is more than one result, the function will return
+        the first that has matched.
+      </p>
+
+      <p class="border-b-2 pb-3 border-rose-400"></p>
+      <h2 class="text-lg font-bold">
+        2. Difference between localstorage vs sessionstorage and cookies
+      </h2>
+      <h4 class="font-bold text-xs">localstorage</h4>
+      <p>
+        localStorage is a way to store data on the client's computer. It allows
+        the saving of key/value pairs in a web browser and it stores data with
+        no expiration date. localStorage can only be accessed via JavaScript,
+        and HTML5
+      </p>
+      <h4 class="font-bold text-xs">sessionstorage</h4>
+      <p>
+        stores data only for a session, meaning that the data is stored until
+        the browser (or tab) is closed
+      </p>
+      <h4 class="font-bold text-xs">Cookie</h4>
+      <p>
+        Stores data that has to be sent back to the server with subsequent XHR
+        requests. Its expiration varies based on the type and the expiration
+        duration can be set from either server-side or client-side . Cookies are
+        primarily for server-side reading (can also be read on client-side),
+        localStorage and sessionStorage can only be read on client-side.
+      </p>
+      <p class="border-b-2 pb-3 border-rose-400"></p>
+
+      <h2 class="text-lg font-bold">
+        3. What is an event loop in JavaScript ?
+      </h2>
+      <p>
+        JavaScript event loop is the mechanism that enables asynchronous
+        programming in JavaScript. It is responsible for managing the order in
+        which the code is executed in response to events, such as user actions,
+        server responses, and timers.
+      </p>
+      <p>
+        The event loop has two main components: the call stack and the event
+        queue. The call stack is a data structure that keeps track of the
+        function calls in the current execution context. The event queue is a
+        data structure that holds the events waiting to be processed.
+      </p>
+      <p class="border-b-2 pb-3 border-rose-400"></p>
+      <h2 class="text-lg font-bold text-center">Other question and answer about code</h2>
+    </section>
   </body>
 </html>
