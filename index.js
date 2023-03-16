@@ -133,7 +133,7 @@ document.querySelector("#submit").addEventListener("click", () => {
       ])
     );
   }
-
+storage = JSON.parse(localStorage.getItem("results"));
   // Right side bar/ answer section
   let x = setTimeout(() => {
     showAnswers(answers);
